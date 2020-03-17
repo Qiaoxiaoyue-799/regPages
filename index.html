@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta content="text/html; charset=utf-8" />
+    <meta name="description" content="百度帐号是登录所有百度系产品的通行证，登录后还可以在帐户管理页管理/修改您的个人信息，包括修改密码、绑定手机、身份认证等">
+    <title>
+    注册百度帐号
+    </title>
+    <link href="./index.css" type="text/css" rel="stylesheet" />        
+    </head>
+    <body>
+        <!-- 图片 -->
+        <div class="img1">
+            <img src="https://passport.baidu.com/static/passpc-account/img/baidu.png">
+        </div>
+        <!-- 文字 -->
+        <div class="word">
+            用科技
+        </div>
+        <div class="word0">
+            让 复 杂 的 世 界 更 简 单
+        </div>
+        <div class="word1">
+            帮助中心 | 2020 ©Baidu
+        </div>
+        <!-- 登录框 -->
+        <div class="content">
+            <h2>欢迎注册</h2>
+            <p>已有帐号？<a href="">登录</a></p>
+            <p>
+                <span>用户名</span>
+                <input id="user" type="input" placeholder="请设置用户名"/>
+            </p>
+            <div id="user-message"></div>
+            <p>
+                <span>手机号</span>
+                <input id="phoneNumber" type="input" placeholder="可用于登录和找回密码"/>
+            </p>
+            <div id="phoneNumber-message"></div>
+            <p>
+                <span style="font-size: 16px;
+                color: #333;
+                letter-spacing: 0;
+                text-align: right;
+                width: 82px;
+                height: 40px;
+                line-height: 40px;
+                margin-right: 26px;
+                font-weight: 400;">密 码</span>
+                <input id="pwd" type="password" placeholder="请设置登录密码" />
+            </p>
+            <div id="pwd-message"></div>
+            <p>
+                <span style="font-size: 16px;
+                color: #333;
+                letter-spacing: 0;
+                text-align: right;
+                width: 82px;
+                height: 40px;
+                line-height: 40px;
+                margin-right: 15px;
+                font-weight: 400;">验证码</span>
+                <input type="input" id="ver"
+                style="padding: 11px 10px;
+                max-height: 40px;
+                background: #fff;
+                border: 1px solid #E0E0E0;
+                border-radius: 4px;
+                font-size: 14px;
+                width: 200px;
+                color: #000;"  placeholder="请输入验证码"/>
+                <input type="button" id="getBtn"
+                value="获取验证码" 
+                style="width: 117px;height: 40px;
+                border-radius: 4px;
+                background: #fff;
+                border: 1px solid #E0E0E0;
+                font-size: 12px;
+                color: #333;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 24px;" ></input>
+            </p>
+            <div id="ver-message"></div>
+            <p>
+                <input id="btn" type="submit" value="注册"
+                style="background: #BDCEFC;
+                border-radius: 25px;
+                width: 410px;font-size: 16px;margin-top:20px;"></input>
+            </p>
+            <p style="font-size: 12px;text-align: center;">阅读并接受《百度用户协议》及《百度隐私权保护声明》</p>
+        </div>
+    </body>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="index.js"></script>
+</html>
